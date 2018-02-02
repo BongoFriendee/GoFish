@@ -46,9 +46,17 @@ if not ready == 'y':
     sys.exit()
 
 #to do
-#define size of each players hand accoring to hand_size
-#deal hands to each player.
-#turn mechanism.  prompt player with a list of options on their respective turns
-##testing class here:
+
+#define size each players hand accoring to hand_size and the number of players
+#create a list of dictionaries for this?
+for i in range(0,players):
+   print ("Dealing cards to player ",i,)
+
+
+#create a turn  mechanism. prompt player with a list of options on their respective turns
+#for i in range(0,players):
+
+
+##testing the Card class here:
 print ("player 1, your hand is ")
-print (Card(2, 3))
+print (Card(3, 3))
