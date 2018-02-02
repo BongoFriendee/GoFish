@@ -46,8 +46,8 @@ if not ready == 'y':
     sys.exit()
 
 #to do
-#define size each players hand accoring to hand_size
-#deal hands to each playre.
+#define size of each players hand accoring to hand_size
+#deal hands to each player.
 #turn mechanism.  prompt player with a list of options on their respective turns
 ##testing class here:
 print ("player 1, your hand is ")
